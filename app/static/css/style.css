@@ -1,0 +1,63 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+
+h1 
+    {
+        margin-top: 0;
+        margin-bottom: 20px;
+        color: rgb(8, 8, 8);
+        font-size: 240%;
+        word-spacing: 4px;
+        letter-spacing: 1px;
+    }
+
+
+header {
+    
+    background-attachment: fixed;
+}
+
+.section-features {
+    background-color: rgb(184, 201, 201);
+    background-attachment: fixed;
+}
+
+.section-first {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.contact-form {
+    width:60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+*:focus {
+    outline: none;
+}
